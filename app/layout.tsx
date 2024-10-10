@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { Lexend } from "next/font/google";
 import Navbar from "@/components/Navbar";
 
-export const font = Lexend({
+const font = Lexend({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "700", "800", "900"],
 });
