@@ -11,12 +11,23 @@ const Hero = () => {
         <p>Warszawa</p>
         <Link
           href=""
-          className="py-2 px-8 border-black border-2 rounded-full text-xl bg-white/10 hover:scale-105 duration-200 md:-translate-x-4"
+          className="py-2 px-8 border-black border-2 rounded-full text-xl bg-white/10 hover:scale-105 duration-200 md:-translate-x-4 active:scale-100 hover:shadow-xl"
         >
           Kup Bilet
         </Link>
       </div>
-      <Blob />
+      {/* blob 1 */}
+      <div className="blob fill-primary/40 blur-2xl top-2/3 lg:top-0 left-1/2 animated-blob1 z-[-1] w-64 lg:w-[40rem]">
+        <Blob />
+      </div>
+      {/* blob 2 */}
+      <div className="blob fill-secondary/50 blur-xl top-1/4 lg:top-0 left-1/2 animated-blob2 z-[-2] w-72 lg:w-[40rem]">
+        <Blob />
+      </div>
+      {/* blob 3 */}
+      <div className="blob fill-primary/40 blur-2xl top-[-50px] lg:top-0 left-1/2 animated-blob3 z-[-3] w-56 lg:w-[40rem]">
+        <Blob />
+      </div>
     </header>
   );
 };
