@@ -15,7 +15,7 @@ const Quotes = () => {
           index: number
         ) => (
           <div
-            className="overflow-hidden rounded-xl flex flex-col 
+            className="overflow-hidden rounded-xl flex flex-col bg-primary text-white
             [&:nth-child(1)]:bg-primary [&:nth-child(1)]:text-white 
             [&:nth-child(2)]:bg-secondary [&:nth-child(2)]:text-white [&:nth-child(2)]:flex-col-reverse
             [&:nth-child(3)]:bg-neutral-200 [&:nth-child(3)]:text-black 

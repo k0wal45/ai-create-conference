@@ -25,7 +25,7 @@ const Hero = () => {
         <Blob />
       </div>
       {/* blob 3 */}
-      <div className="blob fill-primary/40 blur-2xl top-[-50px] lg:top-0 left-1/2 animated-blob3 z-[-3] w-56 lg:w-[40rem]">
+      <div className="blob fill-accent/40 blur-2xl top-[-50px] lg:top-0 left-1/2 animated-blob3 z-[-3] w-56 lg:w-[40rem]">
         <Blob />
       </div>
     </header>
