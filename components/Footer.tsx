@@ -13,7 +13,7 @@ const Footer = () => {
             height={200}
             src="/assets/img/aiCreate.png"
             alt="aI Create logo"
-            className="h-8 md:h-10 lg:h-16 w-auto object-contain invert"
+            className="h-8 md:h-10 lg:h-16 w-auto object-contain"
           />
           <p className="text-lg lg:text-2xl py-2 px-4 md:py-4 md:px-6 rounded-full border-2 border-white w-fit">
             29 Października 2024

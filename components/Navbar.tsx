@@ -44,7 +44,7 @@ const Navbar = () => {
           height={100}
           src="/assets/img/aiCreate.png"
           alt="aI Create logo"
-          className="h-4 md:h-6 lg:h-8 w-auto object-contain invert"
+          className="h-4 md:h-6 lg:h-8 w-auto object-contain"
         />
       </Link>
 

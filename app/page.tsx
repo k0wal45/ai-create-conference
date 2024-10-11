@@ -2,6 +2,7 @@ import About from "@/components/About/About";
 import Agenda from "@/components/Agenda/Agenda";
 import AllSpeakers from "@/components/AllSpeakers/AllSpeakers";
 import Hero from "@/components/Hero/Hero";
+import Pricing from "@/components/Pricing/Pricing";
 import Quotes from "@/components/Quotes/Quotes";
 import TopSpeakers from "@/components/TopSpeakers/TopSpeakers";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <TopSpeakers />
       <AllSpeakers />
       <Agenda />
+      <Pricing />
     </main>
   );
 }

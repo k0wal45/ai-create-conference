@@ -7,7 +7,7 @@ const SalaMalinowa = () => {
   return (
     <Fragment>
       {/* spliter */}
-      <div className={STOP_CLASSES + " bg-rose-500"}>
+      <div className={STOP_CLASSES + " bg-secondary"}>
         <FaCircle className="text-sm" />
         Warsztaty
         <FaCircle className="text-sm" />
