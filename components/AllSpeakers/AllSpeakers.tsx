@@ -3,8 +3,8 @@ import React from "react";
 
 const AllSpeakers = () => {
   return (
-    <section className="p-4 lg:p-12 flex flex-col gap-12">
-      <p className="text-lg px-6 py-2 w-fit rounded-full border-2 border-black">
+    <section className="p-4 lg:p-12 flex flex-col gap-12 text-white">
+      <p className="text-lg px-6 py-2 w-fit rounded-full border-2 border-white ">
         PRELEGENCI
       </p>
       <div className="flex flex-wrap gap-12 items-start justify-center">

@@ -32,7 +32,7 @@ const Navbar = () => {
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className={` ${
-        onTop ? "bg-transparent" : "bg-white"
+        onTop ? "bg-transparent" : "bg-[#1e1b4b]"
       } fixed top-0 left-0 w-full px-4 z-4 flex justify-between items-center z-40 pr-8 transition-all duration-700`}
     >
       <Link
@@ -44,11 +44,11 @@ const Navbar = () => {
           height={100}
           src="/assets/img/aiCreate.png"
           alt="aI Create logo"
-          className="h-4 md:h-6 lg:h-8 w-auto object-contain"
+          className="h-4 md:h-6 lg:h-8 w-auto object-contain invert"
         />
       </Link>
 
-      <ul className="hidden lg:flex gap-8 items-center font-[600] text-lg justify-center text-black">
+      <ul className="flex gap-8 items-center font-[600] text-lg justify-center text-white">
         <li>
           <Link
             href="/"

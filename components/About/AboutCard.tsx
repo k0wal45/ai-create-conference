@@ -17,26 +17,20 @@ const AboutCard = ({
   img: string;
 }) => {
   return (
-    <div className="flex flex-col gap-12 group">
-      <div className="border-2 border-black rounded-2xl p-4 flex flex-col gap-16 py-36 items-center justify-center duration-300 transition-transform active:scale-90 relative overflow-hidden group z-20 text-white text-center shadow-lg">
-        <Stat num={num} index={index} suffix={suffix} />
-        <p className="text-3xl font-semibold">{text}</p>
-        {/* hover */}
-        <div className="absolute w-full h-1/2 top-0 left-0 bg-gradient-to-r from-neutral-400/30 to-neutral-200/30 translate-x-[-110%] group-hover:translate-x-[0%] transition-transform duration-700 z-[-1]" />
-        <div className="absolute w-full h-1/2 bottom-0 right-0 bg-gradient-to-r from-neutral-400/30 to-neutral-200/30 translate-x-[110%] group-hover:translate-x-[0%] transition-transform duration-700 z-[-1]" />
-        <div className="absolute group-even:bg-primary/40 bg-secondary/40 inset-0 z-[-2]"></div>
-        <Image
-          width={500}
-          height={700}
-          src={img}
-          alt="Zdjęcia z konferencji"
-          className="absolute inset-0 z-[-3] object-cover size-full "
-        />
-      </div>
-      <div className="border-8 border-primary group-odd:border-secondary bg-gradient-to-tr from-primary/60 to-primary/20 group-odd:from-secondary/60 group-odd:to-secondary/20 rounded-2xl p-4 flex flex-col gap-16 py-36 items-center justify-center group z-20 text-center shadow-lg">
-        <Stat num={num} index={index} suffix={suffix} />
-        <p className="text-3xl font-semibold">{text}</p>
-      </div>
+    <div className="border-2 border-black rounded-2xl p-4 flex flex-col gap-16 py-36 items-center justify-center duration-300 transition-transform active:scale-90 relative overflow-hidden group z-20 text-white text-center shadow-lg">
+      <Stat num={num} index={index} suffix={suffix} />
+      <p className="text-3xl font-semibold">{text}</p>
+      {/* hover */}
+      <div className="absolute w-full h-1/2 top-0 left-0 bg-gradient-to-r from-neutral-400/30 to-neutral-200/30 translate-x-[-110%] group-hover:translate-x-[0%] transition-transform duration-700 z-[-1]" />
+      <div className="absolute w-full h-1/2 bottom-0 right-0 bg-gradient-to-r from-neutral-400/30 to-neutral-200/30 translate-x-[110%] group-hover:translate-x-[0%] transition-transform duration-700 z-[-1]" />
+      <div className="absolute group-even:bg-primary/40 bg-secondary/40 inset-0 z-[-2]"></div>
+      <Image
+        width={500}
+        height={700}
+        src={img}
+        alt="Zdjęcia z konferencji"
+        className="absolute inset-0 z-[-3] object-cover size-full "
+      />
     </div>
   );
 };
