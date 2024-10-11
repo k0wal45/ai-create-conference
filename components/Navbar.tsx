@@ -36,7 +36,7 @@ const Navbar = () => {
       } fixed top-0 left-0 w-full px-4 z-4 flex justify-between items-center z-40 pr-8 transition-all duration-700`}
     >
       <Link
-        href="/"
+        href="#home"
         className="flex justify-center items-center p-4 gap-4 z-30 font-bold"
       >
         <Image
