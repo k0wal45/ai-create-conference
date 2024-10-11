@@ -32,7 +32,7 @@ const Navbar = () => {
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className={` ${
-        onTop ? "bg-transparent" : "bg-[#1e1b4b]"
+        onTop ? "bg-transparent" : "bg-background"
       } fixed top-0 left-0 w-full px-4 z-4 flex justify-between items-center z-40 pr-8 transition-all duration-700`}
     >
       <Link
@@ -48,7 +48,7 @@ const Navbar = () => {
         />
       </Link>
 
-      <ul className="flex gap-8 items-center font-[600] text-lg justify-center text-white">
+      <ul className="flex gap-8 items-center font-[600] text-lg justify-center">
         <li>
           <Link
             href="/"

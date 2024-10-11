@@ -17,7 +17,7 @@ const AboutCard = ({
   img: string;
 }) => {
   return (
-    <div className="border-2 border-black rounded-2xl p-4 flex flex-col gap-16 py-36 items-center justify-center duration-300 transition-transform active:scale-90 relative overflow-hidden group z-20 text-white text-center shadow-lg">
+    <div className="border-2 border-white rounded-2xl p-4 flex flex-col gap-16 py-36 items-center justify-center duration-300 transition-transform active:scale-90 relative overflow-hidden group z-20 text-white text-center shadow-lg">
       <Stat num={num} index={index} suffix={suffix} />
       <p className="text-3xl font-semibold">{text}</p>
       {/* hover */}

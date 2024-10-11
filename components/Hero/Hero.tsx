@@ -5,7 +5,7 @@ import Blob from "./Blob";
 const Hero = () => {
   return (
     <header className="h-screen p-4 py-24 relative pt-16 overflow-x-clip">
-      <div className="sm:w-1/2 lg:min-w-[40rem] flex flex-col items-start justify-end h-full sm:float-right text-4xl gap-2 font-semibold text-white">
+      <div className="sm:w-1/2 lg:min-w-[40rem] flex flex-col items-start justify-end h-full sm:float-right text-4xl gap-2 font-semibold">
         <p>29.10.2024</p>
         <p className="mt-2">Hotel Bellotto,</p>
         <p>Warszawa</p>

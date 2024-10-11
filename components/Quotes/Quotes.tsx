@@ -15,13 +15,13 @@ const Quotes = () => {
           index: number
         ) => (
           <div
-            className="overflow-hidden rounded-xl flex flex-col bg-primary text-white
-            [&:nth-child(1)]:bg-primary [&:nth-child(1)]:text-white 
-            [&:nth-child(2)]:bg-secondary [&:nth-child(2)]:text-white [&:nth-child(2)]:flex-col-reverse
+            className="overflow-hidden rounded-xl flex flex-col bg-primary
+            [&:nth-child(1)]:bg-primary 
+            [&:nth-child(2)]:bg-secondary [&:nth-child(2)]:flex-col-reverse
             [&:nth-child(3)]:bg-neutral-200 [&:nth-child(3)]:text-black 
-            [&:nth-child(4)]:bg-accent [&:nth-child(4)]:text-white 
-            [&:nth-child(5)]:bg-primary [&:nth-child(5)]:text-white
-            [&:nth-child(6)]:bg-secondary [&:nth-child(6)]:text-white [&:nth-child(6)]:flex-col-reverse
+            [&:nth-child(4)]:bg-accent 
+            [&:nth-child(5)]:bg-primary
+            [&:nth-child(6)]:bg-secondary [&:nth-child(6)]:flex-col-reverse
             "
             key={index}
           >
