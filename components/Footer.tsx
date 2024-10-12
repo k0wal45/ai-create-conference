@@ -43,7 +43,7 @@ const Footer = () => {
         }
       >
         <p className="cursor-default">©{year} aI Create</p>
-        <p>
+        <p className="text-base">
           Created by:{" "}
           <a
             href="https://lunarisweb.pl/"
