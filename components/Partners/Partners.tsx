@@ -50,10 +50,6 @@ const Partners = () => {
           </div>
         </div>
       </section>
-      <div
-        className="w-full h-24 bg-white"
-        style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 0)" }}
-      ></div>
     </Fragment>
   );
 };

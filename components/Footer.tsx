@@ -5,7 +5,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer className="bg-gradient-to-tr from-primary from-30% via-secondary via-60% to-accent to-90% rounded-t-[5rem]">
+    <footer className="bg-gradient-to-tr from-primary from-30% via-secondary via-60% to-accent to-90%">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-8 py-16">
         <div className="flex flex-col justify-center items-start gap-8">
           <Image
