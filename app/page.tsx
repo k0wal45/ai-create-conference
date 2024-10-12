@@ -8,8 +8,6 @@ import Quotes from "@/components/Quotes/Quotes";
 import TopSpeakers from "@/components/TopSpeakers/TopSpeakers";
 import Where from "@/components/Where/Where";
 
-export const revalidate = 10;
-
 export default function Home() {
   return (
     <main>

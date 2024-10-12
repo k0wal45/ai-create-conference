@@ -1,9 +1,16 @@
-import Image from "next/image";
-import React from "react";
+"use client";
+import { useRef } from "react";
+import Quote from "./Quote";
 
 const Quotes = () => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const ref: any = useRef();
+
   return (
-    <section className="p-4 lg:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[120rem] mx-auto gap-4">
+    <section
+      ref={ref}
+      className="p-4 lg:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[120rem] mx-auto gap-4"
+    >
       {quotes.map(
         (
           quote: {
@@ -14,32 +21,7 @@ const Quotes = () => {
           },
           index: number
         ) => (
-          <div
-            className="overflow-hidden rounded-xl flex flex-col bg-primary
-            [&:nth-child(1)]:bg-primary 
-            [&:nth-child(2)]:bg-secondary [&:nth-child(2)]:flex-col-reverse
-            [&:nth-child(3)]:bg-neutral-200 [&:nth-child(3)]:text-black 
-            [&:nth-child(4)]:bg-accent 
-            [&:nth-child(5)]:bg-primary
-            [&:nth-child(6)]:bg-secondary [&:nth-child(6)]:flex-col-reverse
-            "
-            key={index}
-          >
-            <Image
-              width={400}
-              height={300}
-              src={quote.img}
-              alt={quote.name}
-              className="aspect-video w-full object-cover "
-            />
-            <div className="flex flex-col gap-4 p-8 py-12">
-              <p className="text-2xl font-medium">&quot;{quote.quote}&quot;</p>
-              <p className="text-xl font-medium">
-                {quote.name + " "}{" "}
-                <span className="font-light">{quote.title}</span>
-              </p>
-            </div>
-          </div>
+          <Quote index={index} view={ref} quote={quote} key={index} />
         )
       )}
     </section>

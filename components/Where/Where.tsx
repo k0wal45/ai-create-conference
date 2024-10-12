@@ -1,10 +1,26 @@
+"use client";
+import { useRef, useState } from "react";
+import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 import DotExpandButton from "../Button/DotExpandButton";
 
 const Where = () => {
+  const [scale, setScale] = useState(0);
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
+
+  useMotionValueEvent(scrollYProgress, "change", (latest) => {
+    setScale(0.5 + latest * 2);
+  });
   return (
-    <section className="flex flex-col md:flex-row gap-12 justify-center py-24 w-full relative overflow-hidden">
+    <section
+      ref={ref}
+      className="flex flex-col md:flex-row gap-12 justify-center py-24 w-full relative overflow-hidden"
+    >
       <div className="max-w-xl w-full flex flex-col gap-8 items-start justify-between">
         <h6 className="text-6xl font-bold">
           Hotel Bellotto <br />
@@ -27,7 +43,10 @@ const Where = () => {
         alt="Hotel Bellotto"
         className="w-full max-w-2xl aspect-square rounded-2xl object-cover"
       />
-      <div className="absolute w-screen bottom-0 left-0 h-2/3 bg-gradient-to-br from-secondary to-accent z-[-1]"></div>
+      <motion.div
+        style={{ scaleY: scale }}
+        className="absolute w-screen bottom-0 left-0 h-2/3 bg-gradient-to-br from-secondary to-accent z-[-1]"
+      ></motion.div>
     </section>
   );
 };
