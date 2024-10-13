@@ -15,7 +15,10 @@ const handleOnClick = (num: number) => {
 
 const AllSpeakers = () => {
   return (
-    <section className="p-4 lg:p-12 flex flex-col gap-12 text-white">
+    <section
+      className="p-4 lg:p-12 flex flex-col gap-12 text-white"
+      id="speakers"
+    >
       <p className="text-lg px-6 py-2 w-fit rounded-full border-2 border-white ">
         PRELEGENCI
       </p>

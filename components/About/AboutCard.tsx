@@ -55,7 +55,7 @@ const Stat = ({
 
   return (
     <div className="flex w-72 flex-col items-center py-8 sm:py-0">
-      <p className="mb-2 text-center text-4xl font-semibold sm:text-5xl">
+      <p className="mb-2 text-center text-3xl font-semibold sm:text-4xl">
         <span ref={ref}></span>
         {suffix}
       </p>

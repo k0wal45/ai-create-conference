@@ -17,30 +17,73 @@ const Partners = () => {
             />
           </div>
           <p className="text-4xl font-semibold">Partnerzy merytoryczni</p>
-          <div className="flex flex-wrap gap-8">
-            {lecturesPartners.map((photo: string, index: number) => (
-              <Image
-                key={index}
-                width={400}
-                height={300}
-                src={"/assets/img/partners/" + photo}
-                alt="AI Create Partnet Merytoryczny"
-                className="object-contain h-24 w-auto"
-              />
-            ))}
+          <div className="flex flex-wrap gap-12">
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/1_Partner_merytoryczny_DERL_vector-file.png"
+              alt="Laboratorium etyki cyfrowej"
+              className="object-contain h-24 xl:h-32 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/combo-green+black-on-white.png"
+              alt="LMS"
+              className="object-contain h-24 xl:h-32 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/DpVision-on white background.png"
+              alt="dpVision"
+              className="object-contain h-24 xl:h-32 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/logo_przezroczystosc_mini-1.png"
+              alt="mimo.ooo"
+              className="object-contain h-16 xl:h-20 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/Partner Merytoryczny Fundacja Lubię Poniedziałki.png"
+              alt="fundacja lubię poniedziałki"
+              className="object-contain h-24 xl:h-32 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/QED_logo_original.png"
+              alt="QED Software"
+              className="object-contain h-24 xl:h-32 w-auto"
+            />
           </div>
           <p className="text-4xl font-semibold">Partnerzy medialny</p>
-          <div className="flex flex-wrap gap-8">
-            {mediaPartners.map((photo: string, index: number) => (
-              <Image
-                key={index}
-                width={400}
-                height={300}
-                src={"/assets/img/partners/" + photo}
-                alt="AI Create Partnet Merytoryczny"
-                className="object-contain h-24 w-auto"
-              />
-            ))}
+          <div className="flex flex-wrap gap-12">
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/logo_eska.ai.png"
+              alt="radio Eska"
+              className="object-contain h-24 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/SUPER EXPRESS LOGO 2018 2 GAZETA.png"
+              alt="Logo Super Express"
+              className="object-contain h-28 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/superbiz_.ai.png"
+              alt="Superbiznes Logo"
+              className="object-contain h-24 w-auto"
+            />
           </div>
         </div>
       </section>
@@ -49,18 +92,3 @@ const Partners = () => {
 };
 
 export default Partners;
-
-const lecturesPartners = [
-  "1_Partner_merytoryczny_DERL_vector-file.png",
-  "combo-green+black-on-white.png",
-  "DpVision-on white background.png",
-  "logo_przezroczystosc_mini-1.png",
-  "Partner Merytoryczny Fundacja Lubię Poniedziałki.png",
-  "QED_logo_original.png",
-];
-
-const mediaPartners = [
-  "logo_eska.ai.png",
-  "SUPER EXPRESS LOGO 2018 2 GAZETA.png",
-  "superbiz_.ai.png",
-];

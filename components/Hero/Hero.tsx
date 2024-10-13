@@ -22,16 +22,16 @@ const Hero = () => {
       className="h-screen p-4 pt-24 relative overflow-x-clip flex flex-col gap-4 items-center justify-center"
       id="home"
     >
-      <h1 className="text-4xl sm:text-6xl font-bold">
+      <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">
         Konferencja AI Create 2024
       </h1>
-      <h2 className="text-3xl sm:text-5xl font-semibold pb-24">
+      <h2 className="text-3xl lg:text-4xl xl:text-5xl font-semibold pb-24">
         AI - media - branża kreatywna
       </h2>
       <div className="flex w-full">
         <div className="flex-1 w-full"></div>
         <div className="flex-1 w-full">
-          <p className="text-2xl font-semibold">
+          <p className="text-xl lg:text-2xl xl:text-3xl font-semibold">
             29.10.2024 Hotel Bellotto, Warszawa
           </p>
         </div>

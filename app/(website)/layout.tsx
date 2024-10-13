@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { Lexend } from "next/font/google";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const font = Lexend({
