@@ -22,10 +22,10 @@ const Agenda = () => {
       <h3 className="text-4xl font-bold">Agenda wydarzenia</h3>
       <div className="flex flex-col md:flex-row gap-12 w-full py-4">
         <div className="w-full" onClick={() => setAgenda(1)}>
-          <SpotlightButton>Część Konferencyjna</SpotlightButton>
+          <SpotlightButton index={0}>Część Konferencyjna</SpotlightButton>
         </div>
         <div className="w-full" onClick={() => setAgenda(2)}>
-          <SpotlightButton>Warsztaty</SpotlightButton>
+          <SpotlightButton index={1}>Warsztaty</SpotlightButton>
         </div>
       </div>
       {returnAgenda(agenda)}

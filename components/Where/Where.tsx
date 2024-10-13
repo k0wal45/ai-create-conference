@@ -22,7 +22,7 @@ const Where = () => {
       className="flex flex-col md:flex-row gap-12 justify-center py-24 w-full relative overflow-hidden"
     >
       <div className="max-w-xl w-full flex flex-col gap-8 items-start justify-between">
-        <h6 className="text-6xl font-bold">
+        <h6 className="text-5xl font-bold">
           Hotel Bellotto <br />
           ul. Senatorska 13/15
           <br /> Warszawa

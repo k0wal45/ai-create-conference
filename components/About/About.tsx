@@ -14,7 +14,6 @@ const About = () => {
               num: number;
               text: string;
               suffix?: string;
-              img: string;
             },
             index: number
           ) => (
@@ -23,7 +22,6 @@ const About = () => {
               text={item.text}
               index={index + 1}
               suffix={item.suffix}
-              img={item.img}
               key={index}
             />
           )
@@ -39,23 +37,19 @@ const info = [
   {
     num: 2,
     text: "Sceny",
-    img: "https://images.unsplash.com/photo-1550305080-4e029753abcf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     num: 20,
     suffix: "+",
     text: "Prelegentów",
-    img: "https://images.unsplash.com/photo-1560439514-e960a3ef5019?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     num: 10,
     text: "Paneli",
-    img: "https://images.unsplash.com/photo-1560439514-4e9645039924?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     num: 6,
     suffix: "h",
     text: "Praktycznej wiedzy",
-    img: "https://images.unsplash.com/photo-1560523160-754a9e25c68f?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];

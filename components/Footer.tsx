@@ -31,7 +31,9 @@ const Footer = () => {
         <div className="flex flex-col gap-2">
           <p className="text-2xl">Skontaktuj się z nami</p>
 
-          <a className="mt-4">adres@email.pl**********</a>
+          <a href="mailto:kontakt@aicreate2024.pl" className="mt-4">
+            kontakt@aicreate2024.pl
+          </a>
           <Link href="#" className="underline">
             Polityka prywatności
           </Link>

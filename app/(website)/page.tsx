@@ -5,7 +5,7 @@ import Hero from "@/components/Hero/Hero";
 import Partners from "@/components/Partners/Partners";
 import Pricing from "@/components/Pricing/Pricing";
 import Quotes from "@/components/Quotes/Quotes";
-import TopSpeakers from "@/components/TopSpeakers/TopSpeakers";
+// import TopSpeakers from "@/components/TopSpeakers/TopSpeakers";
 import Where from "@/components/Where/Where";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Quotes />
-      <TopSpeakers />
+      {/* <TopSpeakers /> */}
       <AllSpeakers />
       <Agenda />
       <Pricing />

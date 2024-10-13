@@ -2,7 +2,13 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 
-const SpotlightButton = ({ children }: { children: React.ReactNode }) => {
+const SpotlightButton = ({
+  children,
+  index,
+}: {
+  children: React.ReactNode;
+  index: number;
+}) => {
   const btnRef = useRef<HTMLButtonElement | null>(null);
   const spanRef = useRef<HTMLSpanElement | null>(null);
 
@@ -36,12 +42,12 @@ const SpotlightButton = ({ children }: { children: React.ReactNode }) => {
     <motion.button
       whileTap={{ scale: 0.985 }}
       ref={btnRef}
-      className="relative w-full overflow-hidden rounded-lg bg-accent px-4 py-3 text-xl font-semibold"
+      className={`relative w-full overflow-hidden rounded-lg ${index ? "bg-secondary" : "bg-accent"} px-4 py-3 text-xl font-semibold`}
     >
       <span className="pointer-events-none relative z-10">{children}</span>
       <span
         ref={spanRef}
-        className="pointer-events-none absolute left-[50%] top-[50%] h-32 w-72 -translate-x-[50%] -translate-y-[50%] rounded-full bg-secondary"
+        className={`pointer-events-none absolute left-[50%] top-[50%] h-32 w-72 -translate-x-[50%] -translate-y-[50%] rounded-full ${!index ? "bg-secondary" : "bg-primary"}`}
       />
     </motion.button>
   );
