@@ -23,7 +23,7 @@ const Hero = () => {
       id="home"
     >
       <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">
-        Konferencja AI Create 2024
+        Konferencja <span className="text-secondary">A</span>I Create 2024
       </h1>
       <h2 className="text-3xl lg:text-4xl xl:text-5xl font-semibold pb-24">
         AI - media - branża kreatywna

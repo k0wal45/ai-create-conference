@@ -19,10 +19,10 @@ const Where = () => {
   return (
     <section
       ref={ref}
-      className="flex flex-col md:flex-row gap-12 justify-center py-24 w-full relative overflow-hidden"
+      className="flex flex-col md:flex-row gap-12 justify-center py-24 w-full relative overflow-hidden p-4"
     >
-      <div className="max-w-lg w-full flex flex-col gap-8 items-start justify-between">
-        <h6 className="text-3xl font-bold">
+      <div className="max-w-lg w-full flex flex-col gap-8 items-start justify-between pt-8">
+        <h6 className="text-4xl font-bold">
           Hotel Bellotto <br />
           ul. Senatorska 13/15
           <br /> Warszawa

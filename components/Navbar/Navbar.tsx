@@ -54,7 +54,7 @@ const Navbar = () => {
           height={100}
           src="/assets/img/aiCreate.png"
           alt="aI Create logo"
-          className="h-4 lg:h-6 w-auto object-contain"
+          className="h-4 lg:h-6 w-auto object-contain relative after:content-['2024'] "
         />
       </Link>
       <label className="flex lg:hidden z-50">
@@ -76,11 +76,11 @@ const Navbar = () => {
       {/* mobile navigation */}
       <div
         onClick={handleLinkClick}
-        className={`fixed top-0 right-0 h-screen w-screen bg-black pt-32 bg-opacity-90 border-l-2 border-white transition-all duration-1000 origin-right ease-in-out
-        ${visible ? "scale-x-1" : "scale-x-0"}
+        className={`fixed top-0 right-0 h-screen bg-gradient-to-br from-secondary from-40% to-accent pt-24 pl-12 pr-4 transition-all duration-1000 origin-right ease-in-out z-20
+        ${visible ? "translate-x-0" : "translate-x-[100%]"}
       `}
       >
-        <ul className="flex flex-col justify-center items-center gap-8 text-xl font-bold text-white">
+        <ul className="flex flex-col justify-center items-end gap-8 text-xl font-bold text-white">
           <li>
             <Link href="#about">O wydarzeniu</Link>
           </li>
@@ -90,11 +90,9 @@ const Navbar = () => {
           <li>
             <Link href="#agenda">Agenda</Link>
           </li>
-
           <li>
             <Link href="#pricing">Kup Bilet</Link>
           </li>
-          <li className="w-48 border-b-2 border-white my-6"></li>
         </ul>
       </div>
       {/* desktop nav */}

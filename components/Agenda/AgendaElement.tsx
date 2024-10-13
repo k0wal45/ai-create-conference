@@ -49,19 +49,20 @@ const AgendaElement = ({ option }: { option: string }) => {
   }, [option]);
 
   return (
-    <div>
+    <div className="w-full">
       {agenda.length > 0 ? (
         agenda.map((item, index) => (
-          <div key={index}>
-            <p>{item.info}</p>
-            <p>
+          <div className="flex mt-6" key={index}>
+            <p
+              className={`w-36 flex justify-center py-4 px-2 border-r-2  border-neutral-400 ${agenda.length === index + 1 ? "" : ""}`}
+            >
               {item.startTime} - {item.endTime}
             </p>
-            <p>Hall: {item.hall}</p>
+            <p className="w-full px-4 py-2 flex items-center">{item.info}</p>
           </div>
         ))
       ) : (
-        <p>No agenda available</p>
+        <p>Kliknij w przycisk, żeby zobaczyć agendę wydarzenia</p>
       )}
     </div>
   );

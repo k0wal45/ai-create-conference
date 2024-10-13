@@ -61,7 +61,7 @@ const Partners = () => {
               className="object-contain h-24 xl:h-32 w-auto"
             />
           </div>
-          <p className="text-4xl font-semibold">Partnerzy medialny</p>
+          <p className="text-4xl font-semibold">Partnerzy medialni</p>
           <div className="flex flex-wrap gap-12">
             <Image
               width={400}
