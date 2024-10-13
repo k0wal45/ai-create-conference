@@ -36,8 +36,8 @@ export const agenda = {
       type: "string",
       options: {
         list: [
-          { title: "Konferencja", value: "Konferencja" },
-          { title: "Warsztaty", value: "warszaty" },
+          { title: "Konferencja", value: "konferencja" },
+          { title: "Warsztaty", value: "warsztaty" },
         ],
       },
       validation: (Rule: Rule) => Rule.required().error("Pamiętaj o tym polu!"),

@@ -13,7 +13,7 @@ const Partners = () => {
               height={300}
               src="/assets/img/partners/time.png"
               alt="logo time"
-              className="object-contain w-64"
+              className="object-contain w-64 h-auto"
             />
           </div>
           <p className="text-4xl font-semibold">Partnerzy merytoryczni</p>
@@ -25,7 +25,7 @@ const Partners = () => {
                 height={300}
                 src={"/assets/img/partners/" + photo}
                 alt="AI Create Partnet Merytoryczny"
-                className="object-contain h-24"
+                className="object-contain h-24 w-auto"
               />
             ))}
           </div>
@@ -38,7 +38,7 @@ const Partners = () => {
                 height={300}
                 src={"/assets/img/partners/" + photo}
                 alt="AI Create Partnet Merytoryczny"
-                className="object-contain h-24"
+                className="object-contain h-24 w-auto"
               />
             ))}
           </div>
