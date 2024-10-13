@@ -11,6 +11,9 @@ const Agenda = () => {
       className="flex flex-col items-center justify-center gap-4 max-w-6xl mx-auto my-12 p-4"
       id="agenda"
     >
+      <p className="uppercase text-lg px-6 py-2 w-fit rounded-full border-2 border-white ">
+        agenda
+      </p>
       <h3 className="text-4xl font-bold">Agenda wydarzenia</h3>
       {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
       <p className="text-lg text-neutral-400">*Agenda może ulec zmianie*</p>
