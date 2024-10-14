@@ -20,7 +20,7 @@ const AllSpeakersOverlay: React.FC<AllSpeakersOverlayProps> = ({
 }) => {
   return (
     <div className="fixed top-0 left-0 w-full h-full z-50 bg-white/50 flex items-center justify-center text-black p-4">
-      <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-[30rem] flex flex-col items-center">
+      <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-[30rem] flex flex-col items-center max-h-screen overflow-y-scroll">
         <Image
           width={300}
           height={300}
