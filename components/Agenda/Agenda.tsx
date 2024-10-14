@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import SpotlightButton from "../Button/SpotlightButton";
 import AgendaElement from "./AgendaElement";
 
 const Agenda = () => {
@@ -18,12 +17,26 @@ const Agenda = () => {
       {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
       <p className="text-lg text-neutral-400">*Agenda może ulec zmianie*</p>
       <div className="flex flex-col md:flex-row gap-12 w-full py-4">
-        <div className="w-full" onClick={() => setAgenda("konferencja")}>
-          <SpotlightButton index={0}>Część Konferencyjna</SpotlightButton>
-        </div>
-        <div className="w-full" onClick={() => setAgenda("warsztaty")}>
-          <SpotlightButton index={1}>Warsztaty</SpotlightButton>
-        </div>
+        <button
+          onClick={() => setAgenda("konferencja")}
+          className="flex w-full text-center justify-center rounded-xl px-6 items-center gap-4 p-2 font-semibold text-xl text-white duration-300 transition-transform active:scale-90 relative overflow-hidden group z-20"
+        >
+          Część Konferencyjna
+          <div
+            className={`absolute w-full h-full bottom-0 right-0 bg-gradient-to-r from-primary to-primary/0  ${agenda === "konferencja" ? "translate-x-0 " : "translate-x-[-110%]"} transition-transform duration-700 z-[-1]`}
+          />
+          <div className="absolute inset-0 bg-secondary z-[-2]" />
+        </button>
+        <button
+          onClick={() => setAgenda("warsztaty")}
+          className="flex w-full text-center justify-center rounded-xl px-6 items-center gap-4 p-2 font-semibold text-xl text-white duration-300 transition-transform active:scale-90 relative overflow-hidden group z-20"
+        >
+          Warsztaty
+          <div
+            className={`absolute w-full h-full bottom-0 right-0 bg-gradient-to-r from-primary to-primary/0  ${agenda === "warsztaty" ? "translate-x-0" : "translate-x-[-110%]"} transition-transform duration-700 z-[-1]`}
+          />
+          <div className="absolute inset-0 bg-accent z-[-2]" />
+        </button>
       </div>
       <AgendaElement option={agenda} />
     </section>

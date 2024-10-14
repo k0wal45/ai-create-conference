@@ -42,7 +42,6 @@ const AgendaElement = ({ option }: { option: string }) => {
     const fetchAgenda = async () => {
       const data = await getAgenda(option);
       setAgenda(sortByStartTime(data));
-      console.log(data);
     };
 
     fetchAgenda();

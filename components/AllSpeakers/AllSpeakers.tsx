@@ -1,19 +1,37 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
+import AllSpeakersOverlay from "./AllSpeakersOverlay";
 
-const handleOnClick = (num: number) => {
-  const filteredSpeaker = speakersData.filter((speaker) => num === speaker.id);
-
-  if (!Array.isArray(filteredSpeaker)) {
-    console.log(undefined);
-    return;
-  }
-  console.log(filteredSpeaker);
-  return;
-};
+// Define the Speaker type
+interface Speaker {
+  id: number;
+  name: string;
+  title: string;
+  company: string;
+  bio: string;
+  img: string;
+}
 
 const AllSpeakers = () => {
+  const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null); // Use Speaker type or null
+
+  const handleOnClick = (id: number) => {
+    const filteredSpeaker = speakersData.find((speaker) => id === speaker.id);
+
+    if (!filteredSpeaker) {
+      console.log("Speaker not found");
+      return;
+    }
+
+    setSelectedSpeaker(filteredSpeaker); // Set the clicked speaker in state to show overlay
+    console.log(filteredSpeaker);
+  };
+
+  const handleCloseOverlay = () => {
+    setSelectedSpeaker(null); // Clear the selected speaker to close the overlay
+  };
+
   return (
     <section
       className="p-4 lg:p-12 flex flex-col gap-12 text-white"
@@ -23,52 +41,48 @@ const AllSpeakers = () => {
         PRELEGENCI
       </p>
       <div className="flex flex-wrap gap-16 items-start justify-center">
-        {speakersData.map(
-          (
-            speaker: {
-              id: number;
-              name: string;
-              title: string;
-              company: string;
-              bio: string;
-              img: string;
-            },
-            index: number
-          ) => (
-            <div
-              key={index}
-              className="flex flex-col gap-2 items-center justify-center text-center w-56"
-              onClick={() => {
-                handleOnClick(speaker.id);
-              }}
-            >
-              <Image
-                width={300}
-                height={300}
-                src={"/assets/img/speakers/" + speaker.img}
-                alt={speaker.name}
-                className="aspect-square object-cover object-top"
-              />
-              <p className="text-xl px-4 pt-4">{speaker.name}</p>
-              <p className="text-sm font-light px-4">{speaker.title}</p>
-              <p className="px-4">{speaker.company}</p>
-            </div>
-          )
-        )}
+        {speakersData.map((speaker: Speaker, index: number) => (
+          <div
+            key={index}
+            className="flex flex-col gap-2 items-center justify-center text-center w-56"
+            onClick={() => handleOnClick(speaker.id)}
+          >
+            <Image
+              width={300}
+              height={300}
+              src={"/assets/img/speakers/" + speaker.img}
+              alt={speaker.name}
+              className="aspect-square object-cover object-top"
+            />
+            <p className="text-xl px-4 pt-4">{speaker.name}</p>
+            <p className="text-sm font-light px-4">{speaker.title}</p>
+            <p className="px-4">{speaker.company}</p>
+          </div>
+        ))}
       </div>
+      <div></div>
+
+      {/* Conditionally render the overlay if a speaker is selected */}
+      {selectedSpeaker && (
+        <AllSpeakersOverlay
+          speaker={selectedSpeaker}
+          onClose={handleCloseOverlay}
+        />
+      )}
     </section>
   );
 };
 
 export default AllSpeakers;
 
-const speakersData = [
+// Define the speakersData array using the Speaker type
+const speakersData: Speaker[] = [
   {
     id: 1,
     name: "Radosław Komuda",
     title: "Założyciel",
     company: "Laboratorium Etyki Cyfrowej “DERL”",
-    bio: "",
+    bio: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis tempore voluptatum dicta autem odio, voluptatibus sed architecto dignissimos commodi itaque possimus impedit nam incidunt tenetur maiores sunt ratione mollitia molestiae.",
     img: "1_Radosław Komuda - profilowe.jpeg",
   },
   {
@@ -146,7 +160,7 @@ const speakersData = [
   {
     id: 11,
     name: "Jeremiasz Krok",
-    title: "specjalista ds. sztucznej inteligencj",
+    title: "specjalista ds. sztucznej inteligencji",
     company: "Kaizen Ads",
     bio: "",
     img: "11 jeremiasz krok profilowe.jpg",

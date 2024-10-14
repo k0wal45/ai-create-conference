@@ -47,15 +47,16 @@ const Navbar = () => {
     >
       <Link
         href="#home"
-        className="flex justify-center items-center p-4 gap-4 z-30 font-bold"
+        className="flex flex-col justify-center items-end p-4 z-30 font-bold relative"
       >
         <Image
           width={500}
           height={100}
           src="/assets/img/aiCreate.png"
           alt="aI Create logo"
-          className="h-4 lg:h-6 w-auto object-contain relative after:content-['2024'] "
+          className="h-4 lg:h-6 w-auto object-contain"
         />
+        <p className="font-semibold text-lg">2024</p>
       </Link>
       <label className="flex lg:hidden z-50">
         <input
@@ -96,7 +97,7 @@ const Navbar = () => {
         </ul>
       </div>
       {/* desktop nav */}
-      <ul className="hidden lg:flex gap-8 items-center font-[500] justify-center text-white">
+      <ul className="hidden lg:flex gap-8 text-lg items-center font-[500] justify-center text-white">
         <li>
           <Link href="#about" className="hover:underline">
             O wydarzeniu
