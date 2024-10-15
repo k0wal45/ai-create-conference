@@ -14,14 +14,14 @@ const Pricing = () => {
       <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
         <PricingCard
           name="Standard"
-          cost={500}
-          desc="Udział w konferencji dotyczącej innowacji i trendów w AI i branżach kreatywnych"
+          cost={699}
+          desc="Dostęp do wszystkich paneli w trakcie konferencji"
           link=""
         />
         <PricingCard
           name="Pełen pakiet"
-          cost={700}
-          desc="Pełny dostęp do konferencji oraz praktycznych warsztatów z AI i branży kreatywnej"
+          cost={999}
+          desc="Dostęp do wszystkich paneli oraz warsztatów w trakcie konferencji"
           link=""
         />
       </div>

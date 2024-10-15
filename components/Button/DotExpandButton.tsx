@@ -4,7 +4,7 @@ import { FiArrowRight } from "react-icons/fi";
 const DotExpandButton = ({ children }: { children: React.ReactNode }) => {
   return (
     <a
-      href="https://www.hotelbellotto.pl/pl-home"
+      href="https://www.hotelbellotto.pl"
       target="_blank"
       className="group flex h-10 items-center gap-2 rounded-full bg-accent pl-3 pr-4 transition-all duration-300 ease-in-out hover:bg-primary hover:pl-2 hover:text-white"
     >

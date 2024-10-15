@@ -12,7 +12,7 @@ const PricingCard = ({ name, cost, desc, link }: Props) => {
       </h5>
       <p className="text-5xl py-4 border-y-2 border-white w-full border-dashed">
         {cost}
-        <span className="text-lg"> zł / netto + VAT</span>
+        <span className="text-lg"> zł brutto</span>
       </p>
       <p className="text-center text-xl font-light">{desc}</p>
       <a

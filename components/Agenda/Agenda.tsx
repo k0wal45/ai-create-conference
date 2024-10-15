@@ -13,15 +13,13 @@ const Agenda = () => {
       <p className="uppercase text-lg px-6 py-2 w-fit rounded-full border-2 border-white ">
         agenda
       </p>
-      <h3 className="text-4xl font-bold">Agenda wydarzenia</h3>
-      {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-      <p className="text-lg text-neutral-400">*Agenda może ulec zmianie*</p>
+      <h3 className="text-4xl font-bold">Agenda Konferencji</h3>
       <div className="flex flex-col md:flex-row gap-12 w-full py-4">
         <button
           onClick={() => setAgenda("konferencja")}
           className="flex w-full text-center justify-center rounded-xl px-6 items-center gap-4 p-2 font-semibold text-xl text-white duration-300 transition-transform active:scale-90 relative overflow-hidden group z-20"
         >
-          Część Konferencyjna
+          Panele
           <div
             className={`absolute w-full h-full bottom-0 right-0 bg-gradient-to-r from-primary to-primary/0  ${agenda === "konferencja" ? "translate-x-0 " : "translate-x-[-110%]"} transition-transform duration-700 z-[-1]`}
           />

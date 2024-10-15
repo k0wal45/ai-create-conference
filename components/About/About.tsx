@@ -38,8 +38,9 @@ export default About;
 
 const info = [
   {
-    num: 2,
-    text: "Sceny",
+    num: 12,
+    suffix: "+",
+    text: "Paneli",
   },
   {
     num: 20,
@@ -47,11 +48,11 @@ const info = [
     text: "Prelegentów",
   },
   {
-    num: 10,
-    text: "Paneli",
+    num: 3,
+    text: "Warsztaty",
   },
   {
-    num: 6,
+    num: 7,
     suffix: "h",
     text: "Praktycznej wiedzy",
   },

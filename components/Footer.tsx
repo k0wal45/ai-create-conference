@@ -23,9 +23,9 @@ const Footer = () => {
           <div className="flex flex-col">
             <p className="text-2xl">Organizator</p>
 
-            <p className="mt-4">W.M Murator Projekt</p>
+            <p className="mt-4">W.M. Murator Projekt</p>
             <p>ul. Dęblińska 6</p>
-            <p>04-173 Warszawa</p>
+            <p>04-187 Warszawa</p>
             <p>KRS: 0000079969</p>
           </div>
 
