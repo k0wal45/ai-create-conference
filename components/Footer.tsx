@@ -43,6 +43,14 @@ const Footer = () => {
             >
               Polityka prywatności
             </a>
+            <a
+              href="/documents/REGULAMIN_KONFERENCJI_AICREATE.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Regulamin konferencji
+            </a>
           </div>
         </div>
       </div>
