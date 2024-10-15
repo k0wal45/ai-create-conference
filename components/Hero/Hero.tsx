@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <header
       ref={ref}
-      className="h-screen p-4 pt-24 relative overflow-x-clip flex flex-col gap-4 items-center justify-center"
+      className="h-screen p-4 pt-24 relative overflow-x-clip flex flex-col gap-4 items-center justify-center text-center"
       id="home"
     >
       <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Footer = () => {
   const date = new Date();
@@ -36,9 +35,14 @@ const Footer = () => {
             <a href="mailto:kontakt@aicreate2024.pl" className="mt-4">
               kontakt@aicreate2024.pl
             </a>
-            <Link href="#" className="underline">
+            <a
+              href="/documents/POLITYKA_PRYWATNOSCI_AICREATE.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
               Polityka prywatności
-            </Link>
+            </a>
           </div>
         </div>
       </div>

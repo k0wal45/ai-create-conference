@@ -11,7 +11,7 @@ const Partners = () => {
             <Image
               width={400}
               height={300}
-              src="/assets/img/partners/time.png"
+              src="/assets/img/partners/media/time.png"
               alt="logo time"
               className="object-contain w-64 h-auto"
             />
@@ -28,8 +28,22 @@ const Partners = () => {
             <Image
               width={400}
               height={300}
+              src="/assets/img/partners/Bambaa_Logo_Final.png"
+              alt="Bambaa Logo"
+              className="object-contain h-16 xl:h-24 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
               src="/assets/img/partners/combo-green+black-on-white.png"
               alt="LMS"
+              className="object-contain h-16 xl:h-24 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/CyberScience_logotyp_RGB_podstawowe.png"
+              alt="CyberScience"
               className="object-contain h-16 xl:h-24 w-auto"
             />
             <Image
@@ -42,6 +56,27 @@ const Partners = () => {
             <Image
               width={400}
               height={300}
+              src="/assets/img/partners/KAIZEN LOGO_RGB_POZIOM 2.png"
+              alt="Kaizen"
+              className="object-contain h-16 xl:h-24 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/Legal lab.png"
+              alt="Legal Lab"
+              className="object-contain h-16 xl:h-24 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/logo HARDE_black.png"
+              alt="HARDE"
+              className="object-contain h-24 xl:h-32 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
               src="/assets/img/partners/logo_przezroczystosc_mini-1.png"
               alt="mimo.ooo"
               className="object-contain h-12 xl:h-16 w-auto"
@@ -50,8 +85,8 @@ const Partners = () => {
               width={400}
               height={300}
               src="/assets/img/partners/Partner Merytoryczny Fundacja Lubię Poniedziałki.png"
-              alt="fundacja lubię poniedziałki"
-              className="object-contain h-16 xl:h-24 w-auto"
+              alt="Fundacja Lubię Poniedziałki"
+              className="object-contain h-24 xl:h-32 w-auto"
             />
             <Image
               width={400}
@@ -60,29 +95,58 @@ const Partners = () => {
               alt="QED Software"
               className="object-contain h-16 xl:h-24 w-auto"
             />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/sayhi_logo kolor.png"
+              alt="Say Hi"
+              className="object-contain h-16 xl:h-24 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/VELES.png"
+              alt="Veles"
+              className="object-contain h-16 xl:h-24 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/WASP-logo-kolor kontra.jpg"
+              alt="WASP"
+              className="object-contain h-16 xl:h-24 w-auto"
+            />
           </div>
+
           <p className="text-4xl font-semibold">Partnerzy medialni</p>
           <div className="flex flex-wrap justify-center items-center gap-12">
             <Image
               width={400}
               height={300}
-              src="/assets/img/partners/logo_eska.ai.png"
+              src="/assets/img/partners/media/logo_eska.ai.png"
               alt="radio Eska"
               className="object-contain h-16 w-auto"
             />
             <Image
               width={400}
               height={300}
-              src="/assets/img/partners/SUPER EXPRESS LOGO 2018 2 GAZETA.png"
+              src="/assets/img/partners/media/SUPER EXPRESS LOGO 2018 2 GAZETA.png"
               alt="Logo Super Express"
               className="object-contain h-28 w-auto"
             />
             <Image
               width={400}
               height={300}
-              src="/assets/img/partners/superbiz_.ai.png"
+              src="/assets/img/partners/media/superbiz_.ai.png"
               alt="Superbiznes Logo"
               className="object-contain h-16 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
+              src="/assets/img/partners/media/hAI_logo_CMYK.png"
+              alt="Superbiznes Logo"
+              className="object-contain h-24 w-auto"
             />
           </div>
         </div>
