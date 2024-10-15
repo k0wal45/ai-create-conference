@@ -51,7 +51,10 @@ const AgendaElement = ({ option }: { option: string }) => {
     <div className="w-full">
       {agenda.length > 0 ? (
         agenda.map((item, index) => (
-          <div className="flex mt-6" key={index}>
+          <div
+            className={`flex mt-6 rounded-xl ${item.info === "Przerwa" ? "bg-primary" : ""}`}
+            key={index}
+          >
             <p
               className={`w-36 flex justify-center py-4 px-2 border-r-2  border-neutral-400 ${agenda.length === index + 1 ? "" : ""}`}
             >
