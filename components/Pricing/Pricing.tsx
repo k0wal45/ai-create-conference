@@ -19,7 +19,7 @@ const Pricing = () => {
           link=""
         />
         <PricingCard
-          name="Pełen pakiet"
+          name="Premium"
           cost={999}
           desc="Dostęp do wszystkich paneli oraz warsztatów w trakcie konferencji"
           link=""
