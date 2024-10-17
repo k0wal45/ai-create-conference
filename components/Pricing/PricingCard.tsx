@@ -2,9 +2,8 @@ interface Props {
   name: string;
   cost: number;
   desc: string;
-  link: string;
 }
-const PricingCard = ({ name, cost, desc, link }: Props) => {
+const PricingCard = ({ name, cost, desc }: Props) => {
   return (
     <div className=" w-[20rem] p-8 rounded-xl flex flex-col items-center justify-center gap-8 group relative overflow-hidden h-[27rem] hover:scale-105 duration-500">
       <h5 className="text-5xl font-bold text-start h-32 flex items-center w-full">
@@ -16,7 +15,9 @@ const PricingCard = ({ name, cost, desc, link }: Props) => {
       </p>
       <p className="text-center text-xl font-light">{desc}</p>
       <a
-        href={link}
+        href="https://tobilet.pl/ai-create-2024.html"
+        target="_blank"
+        rel="noopener noreferrer"
         className="px-6 py-2 text-lg bg-white text-secondary rounded-full hover:scale-110 hover:font-bold active:scale-100 duration-200 "
       >
         Kup Bilet

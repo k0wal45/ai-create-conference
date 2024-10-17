@@ -16,13 +16,11 @@ const Pricing = () => {
           name="Standard"
           cost={699}
           desc="Dostęp do wszystkich paneli w trakcie konferencji"
-          link=""
         />
         <PricingCard
           name="Premium"
           cost={999}
           desc="Dostęp do wszystkich paneli oraz warsztatów w trakcie konferencji"
-          link=""
         />
       </div>
     </section>
