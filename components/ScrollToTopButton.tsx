@@ -18,8 +18,8 @@ const ScrollToTopButton = () => {
   return (
     <a
       href="#home"
-      className={`fixed bottom-12 right-12 bg-white border-4 border-secondary border-dashed rounded-full p-2 text-xl text-black z-50 duration-300 ${
-        onTop ? "translate-x-[100px]" : "translate-x-0"
+      className={`fixed bottom-4 md:bottom-12 left-4 md:left-12 bg-white border-4 border-secondary border-dashed rounded-full p-2 text-xl text-black z-50 duration-300 ${
+        onTop ? "translate-x-[-100px]" : "translate-x-0"
       } hover:p-[0.7rem] active:scale-90`}
     >
       <FaArrowUp />

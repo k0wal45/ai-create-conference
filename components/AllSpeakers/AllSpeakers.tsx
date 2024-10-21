@@ -104,8 +104,8 @@ const speakersData: Speaker[] = [
   {
     id: 4,
     name: "Michał Domański",
-    title: "Członek grupy ds. współpracy z biznesem",
-    company: "Bielik.Ai",
+    title: "Członek grupy",
+    company: "Bielik.AI",
     bio: "Członek grupy ds. współpracy z biznesem Fundacji SpeakLeash tworzącej otwarty polski Duży Model Językowy Bielik.ai. Organizator cyklu spotkań Masovian AI Fest z misją łączenie warszawskich środowisk biznesowych, technologicznych, i naukowych w zakresie sztucznej inteligencji. Obsesyjnie skupiony na relacjach popularyzator i edukator w zakresie etycznego i inkluzywnego networkingu.",
     img: "13_Michał Domański.jpg",
   },
