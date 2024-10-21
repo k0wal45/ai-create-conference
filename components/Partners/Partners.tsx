@@ -30,7 +30,7 @@ const Partners = () => {
               height={300}
               src="/assets/img/partners/Bielik.jpeg"
               alt="Bielik AI"
-              className="object-contain h-10 xl:h-12 w-auto"
+              className="object-contain h-16 xl:h-24 w-auto"
             />
             <Image
               width={400}
