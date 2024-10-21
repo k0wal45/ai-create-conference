@@ -28,6 +28,13 @@ const Partners = () => {
             <Image
               width={400}
               height={300}
+              src="/assets/img/partners/Bielik.jpeg"
+              alt="Bielik AI"
+              className="object-contain h-10 xl:h-12 w-auto"
+            />
+            <Image
+              width={400}
+              height={300}
               src="/assets/img/partners/QED_logo_original.png"
               alt="QED Software"
               className="object-contain h-16 xl:h-24 w-auto"
