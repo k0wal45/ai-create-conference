@@ -192,4 +192,20 @@ export const speakersData: Speaker[] = [
     bio: "Twórca, edukator, konsultant. Buduję mosty pomiędzy człowiekiem, technologią i biznesem. Pomagam rozwijać marki osobiste w IT oraz holistycznie wspieram content marketing i komunikację firm technologicznych. Szkolę z wykorzystania sztucznej inteligencji w tworzeniu systemów kreatywnych.",
     img: "22aleksander Piskorz.jpeg",
   },
+  {
+    id: 24,
+    name: "Tomasz Horecki",
+    title: "Product Owner",
+    company: "Stenograf.io",
+    bio: "Absolwent Founders Acadamy by Google for Startups i ALK. Pasjonat zrównoważonego rozwoju i dostępności technologii dla osób z niepełnosprawnościami. Entuzjasta bezpiecznej AI i jej pozytywnego wpływu na świat. Propagator cyfrowej transformacji korzystnie wpływającej na rozwój ludzkości. Lokalny aktywista.",
+    img: "24_Tomasz Horecki.JPG",
+  },
+  {
+    id: 25,
+    name: "Paweł Cyrta",
+    title: "Head of Research and Voice AI",
+    company: "Stenograf.io",
+    bio: "15-lat doświadczenia w tworzeniu systemów głosowych AI, analizie audio i wideo oraz rozpoznawaniu mowy. Opracował asystenta głosowego S Voice w Samsungu, współpracował z NowThis Media, programuje w Pythonie, C++ i Rust. Prelegent na konferencjach PyData i wykładowca PW.",
+    img: "25_Paweł Cyrta.jpg",
+  },
 ];
