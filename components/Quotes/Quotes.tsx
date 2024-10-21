@@ -20,17 +20,17 @@ const Quotes = () => {
             - pasjonuje Cię tematyka sztucznej inteligencji i chcesz się
             dowiedzieć więcej
           </p>
-          <p>- to ta konferencja jest właśnie dla Ciebie!</p>
+          <p>to ta konferencja jest właśnie dla Ciebie!</p>
         </div>
       </Quote>
       <Quote index={2}>
         <h2 className="text-5xl font-semibold">O czym?</h2>
         <p className="text-lg">
-          Poznaj najnowsze narzędzia do generowania tekstu, obrazu, audio i
-          wideo. Posłuchaj o najnowszych trendach związanych z wykorzystaniem
-          sztucznej inteligencji w branży kreatywnej i w mediach. Dowiedz się,
-          jak wykorzystywać AI w swojej firmie dbając jednocześnie o
-          bezpieczeństwo i zgodność z prawem.
+          Poznaj narzędzia do generowania tekstu, obrazu, audio i wideo.
+          Posłuchaj o najnowszych trendach związanych z wykorzystaniem sztucznej
+          inteligencji w branży kreatywnej i w mediach. Dowiedz się, jak
+          wykorzystywać AI w swojej firmie dbając jednocześnie o bezpieczeństwo
+          i zgodność z prawem.
         </p>
       </Quote>
       <Quote index={3}>
