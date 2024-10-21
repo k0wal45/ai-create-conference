@@ -1,23 +1,33 @@
 "use client";
 import { useEffect } from "react";
 
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    _quickchat_embedded: any;
+  }
+}
+
 const Quickchat = ({ visible }: { visible: boolean }) => {
   useEffect(() => {
-    // Tworzymy element script
     const script = document.createElement("script");
     script.src = "https://widget.quickchat.ai/embed.js";
     script.async = true;
 
+    // Inicjalizacja widżetu po załadowaniu skryptu
+    script.onload = () => {
+      if (typeof window._quickchat_embedded === "function") {
+        window._quickchat_embedded("host", "app.quickchat.ai");
+        window._quickchat_embedded("init", "jqgudqmxnq");
+      } else {
+        console.error("Skrypt QuickChat nie został załadowany prawidłowo.");
+      }
+    };
+
     // Wstawiamy skrypt do body
     document.body.appendChild(script);
 
-    // Inicjalizacja widżetu po załadowaniu skryptu
-    script.onload = () => {
-      _quickchat_embedded("host", "app.quickchat.ai");
-      _quickchat_embedded("init", "jqgudqmxnq");
-    };
-
-    // Cleanup script on unmount
+    // Cleanup script on component unmount
     return () => {
       document.body.removeChild(script);
     };
