@@ -34,6 +34,14 @@ export const speakersData: Speaker[] = [
   },
   {
     id: 4,
+    name: "Sonia Staniek",
+    title: "Prezes Zarządu",
+    company: "W.M. Murator Projekt",
+    bio: "Prezes Zarządu W.M. Murator Projekt. Prawniczka, compliance officer. Specjalistka z zakresu prawa nowych technologii i własności intelektualnej. Doradza przedsiębiorstwom z branży kreatywnej, mediowej, technologicznej i gamingowej. Wykładowczyni  na studiach podyplomowych 'Cyber Science. Tokenizacja i automatyzacja procesów w gospodarce cyfrowej. Aspekty prawne, technologiczne i zarządcze'. Ekspertka Grupy Roboczej ds. Sztucznej Inteligencji przy Ministerstwie Cyfryzacji (GRAI), gdzie pełni rolę liderki podsekcji AI i inne gałęzie prawa Członkini International Association for Artificial Intelligence and Law oraz Robotics & AI Law Society.",
+    img: "23_sonia staniek.jpg",
+  },
+  {
+    id: 5,
     name: "Michał Domański",
     title: "Członek grupy",
     company: "Bielik.AI",
@@ -41,7 +49,7 @@ export const speakersData: Speaker[] = [
     img: "13_Michał Domański.jpg",
   },
   {
-    id: 5,
+    id: 6,
     name: "Jeremiasz Krok",
     title: " AI Specialist",
     company: "Kaizen Ads",
@@ -49,7 +57,7 @@ export const speakersData: Speaker[] = [
     img: "11 jeremiasz krok profilowe.jpg",
   },
   {
-    id: 6,
+    id: 7,
     name: "Dawid Pawlicki",
     title: "Chief Operating Officer",
     company: "mimo.ooo",
@@ -57,7 +65,7 @@ export const speakersData: Speaker[] = [
     img: "10 Dawid Pawlicki Portret DPA.jpg",
   },
   {
-    id: 7,
+    id: 8,
     name: "Anna Proch",
     title: "CEO",
     company: "DP Vision",
@@ -65,7 +73,7 @@ export const speakersData: Speaker[] = [
     img: "7 Ania Proch.jpg",
   },
   {
-    id: 8,
+    id: 9,
     name: "Artur Paprocki",
     title: "Prezes Zarządu",
     company: "Veles Productions",
@@ -73,7 +81,7 @@ export const speakersData: Speaker[] = [
     img: "12 Artur Paprocki.png",
   },
   {
-    id: 9,
+    id: 10,
     name: "Justyna Masalska",
     title: "Music Publishing & Project Manager",
     company: "Wytwórnia SAYHi",
@@ -81,7 +89,7 @@ export const speakersData: Speaker[] = [
     img: "5 Justyna Masalska Zdjęcie.jpg",
   },
   {
-    id: 10,
+    id: 11,
     name: "Alicja Szydłowska",
     title: "Marketing Manager",
     company: "Time S.A.",
@@ -89,7 +97,7 @@ export const speakersData: Speaker[] = [
     img: "8 Alicja Szydłowska.jpg",
   },
   {
-    id: 11,
+    id: 12,
     name: "Cezary Albiński",
     title: "Członek Zarządu",
     company: "Bambaa",
@@ -97,7 +105,7 @@ export const speakersData: Speaker[] = [
     img: "15 Cezary Albiński .jpg",
   },
   {
-    id: 12,
+    id: 13,
     name: "Tomasz Kurzątkowski",
     title: "Dyrektor Sprzedaży i Marketingu",
     company: "QED Software",
@@ -105,7 +113,7 @@ export const speakersData: Speaker[] = [
     img: "17 Tomasz Kurzątkowski.jpg",
   },
   {
-    id: 13,
+    id: 14,
     name: "Patryk Lasek",
     title: "Product Lead",
     company: "Quickchat AI",
@@ -113,7 +121,7 @@ export const speakersData: Speaker[] = [
     img: "20 patryk lasek quickchat ai.webp",
   },
   {
-    id: 14,
+    id: 15,
     name: "Bartek Kaban",
     title: "Marketing Manager",
     company: "Quickchat AI",
@@ -121,7 +129,7 @@ export const speakersData: Speaker[] = [
     img: "19 bartek kuban quickchat ai.webp",
   },
   {
-    id: 15,
+    id: 16,
     name: "Dr inż. Ewelina Bartuzi-Trokielewicz",
     title: "Assistant Professor",
     company: "NASK Science",
@@ -129,7 +137,7 @@ export const speakersData: Speaker[] = [
     img: "9 Ewelina Bartuzi-Trokielewicz.jpg",
   },
   {
-    id: 16,
+    id: 17,
     name: "Karolina Wilamowska",
     title: "Partnerka Zarządzająca",
     company: "Wilamowscy Adwokaci",
@@ -137,7 +145,7 @@ export const speakersData: Speaker[] = [
     img: "2 Karolina Wilamowska.jpeg",
   },
   {
-    id: 17,
+    id: 18,
     name: "Ewa Dolińska-Wysocka",
     title: "Radczyni prawna",
     company: "JT Weston Legal",
@@ -145,7 +153,7 @@ export const speakersData: Speaker[] = [
     img: "14 Ewa Dolińska Wysocka.jpg",
   },
   {
-    id: 18,
+    id: 19,
     name: "Emilia Florek",
     title: "Radczyni prawna",
     company: "LegalLab",
@@ -153,7 +161,7 @@ export const speakersData: Speaker[] = [
     img: "4 Emilia Florek Zdjęcie.jpg",
   },
   {
-    id: 19,
+    id: 20,
     name: "Radosław Komuda",
     title: "Założyciel",
     company: "Laboratorium Etyki Cyfrowej “DERL”",
@@ -161,7 +169,7 @@ export const speakersData: Speaker[] = [
     img: "1_Radosław Komuda - profilowe.jpeg",
   },
   {
-    id: 20,
+    id: 21,
     name: "Milena Rzemieniak",
     title: "Prezes Zarządu",
     company: "Fundacja Lubię Poniedziałki",
@@ -169,7 +177,7 @@ export const speakersData: Speaker[] = [
     img: "6 Milena Rzemieniak Kielin Zdjęcie.jpg",
   },
   {
-    id: 21,
+    id: 22,
     name: "Przemysław Kucharski",
     title: "AI Deployment Director",
     company: "Cledar",
@@ -177,19 +185,11 @@ export const speakersData: Speaker[] = [
     img: "21_PRZEMYSŁAW KUCHARSKI.jpeg",
   },
   {
-    id: 22,
+    id: 23,
     name: "Aleksander Piskorz",
     title: "Content & Communications Hero",
     company: "AI Hero",
     bio: "Twórca, edukator, konsultant. Buduję mosty pomiędzy człowiekiem, technologią i biznesem. Pomagam rozwijać marki osobiste w IT oraz holistycznie wspieram content marketing i komunikację firm technologicznych. Szkolę z wykorzystania sztucznej inteligencji w tworzeniu systemów kreatywnych.",
     img: "22aleksander Piskorz.jpeg",
-  },
-  {
-    id: 23,
-    name: "Sonia Staniek",
-    title: "Prezes Zarządu",
-    company: "W.M. Murator Projekt",
-    bio: "Prezes Zarządu W.M. Murator Projekt. Prawniczka, compliance officer. Specjalistka z zakresu prawa nowych technologii i własności intelektualnej. Doradza przedsiębiorstwom z branży kreatywnej, mediowej, technologicznej i gamingowej. Wykładowczyni  na studiach podyplomowych 'Cyber Science. Tokenizacja i automatyzacja procesów w gospodarce cyfrowej. Aspekty prawne, technologiczne i zarządcze'. Ekspertka Grupy Roboczej ds. Sztucznej Inteligencji przy Ministerstwie Cyfryzacji (GRAI), gdzie pełni rolę liderki podsekcji AI i inne gałęzie prawa Członkini International Association for Artificial Intelligence and Law oraz Robotics & AI Law Society.",
-    img: "23_sonia staniek.jpg",
   },
 ];
