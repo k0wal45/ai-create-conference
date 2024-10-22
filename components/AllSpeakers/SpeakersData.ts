@@ -122,7 +122,7 @@ export const speakersData: Speaker[] = [
   },
   {
     id: 15,
-    name: "Bartek Kaban",
+    name: "Bartek Kuban",
     title: "Marketing Manager",
     company: "Quickchat AI",
     bio: "",
