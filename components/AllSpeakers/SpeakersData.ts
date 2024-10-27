@@ -228,7 +228,7 @@ export const speakersData: Speaker[] = [
     id: 28,
     name: "Paweł Piekarski",
     title: "Prezes Zarządu",
-    company: "Instytutu Badań Pollster",
+    company: "Accorp",
     bio: "Założyciel i Prezes Instytutu Badań Pollster, w którym odpowiada za dział Data Science. Wraz z zespołem wdraża rozwiązania oparte o uczenie maszynowe w prawdziwym biznesie.",
     img: "28_Pawel Piekarski.png",
   },
