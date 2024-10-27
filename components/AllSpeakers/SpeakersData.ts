@@ -208,4 +208,28 @@ export const speakersData: Speaker[] = [
     bio: "15-lat doświadczenia w tworzeniu systemów głosowych AI, analizie audio i wideo oraz rozpoznawaniu mowy. Opracował asystenta głosowego S Voice w Samsungu, współpracował z NowThis Media, programuje w Pythonie, C++ i Rust. Prelegent na konferencjach PyData i wykładowca PW.",
     img: "25_Paweł Cyrta.jpg",
   },
+  {
+    id: 26,
+    name: "Marta Matylda Kania",
+    title: "CEO",
+    company: "Circuit Tree",
+    bio: "Dla biznesu, NGOsów i uczelni szyje na miarę warsztaty Superpowered by AI - z pisania promptów, narzędzi oraz zastosowań generatywnej sztucznej inteligencji. Projektuje procesy i narzędzia AI, kierując się zasadą: 'Make augmentation, not automation'. Po godzinach prowadzi AI Book Club.",
+    img: "26_MMKania.png",
+  },
+  {
+    id: 27,
+    name: "Hubert Jaśtak",
+    title: "Creative Supervisor",
+    company: "Mimo.ooo",
+    bio: "Zajmuje się tworzeniem koncepcji w projektach komercyjnych i wdrażaniem rozwiązań operacyjnych z wykorzystaniem najnowszych technologii. Dzięki wieloletniemu doświadczeniu w produkcji i postprodukcji skutecznie łączy nowoczesne technologie z kreatywnymi strategiami.",
+    img: "27_HubertJaśtak.Zdjęcie.jpg",
+  },
+  {
+    id: 28,
+    name: "Paweł Piekarski",
+    title: "Prezes Zarządu",
+    company: "Instytutu Badań Pollster",
+    bio: "Założyciel i Prezes Instytutu Badań Pollster, w którym odpowiada za dział Data Science. Wraz z zespołem wdraża rozwiązania oparte o uczenie maszynowe w prawdziwym biznesie.",
+    img: "28_Pawel Piekarski.png",
+  },
 ];
