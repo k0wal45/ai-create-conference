@@ -48,7 +48,7 @@ const info = [
     text: "Prelegentów",
   },
   {
-    num: 3,
+    num: 6,
     text: "Warsztaty",
   },
   {
