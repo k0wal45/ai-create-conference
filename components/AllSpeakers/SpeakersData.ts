@@ -210,7 +210,7 @@ export const speakersData: Speaker[] = [
   },
   {
     id: 26,
-    name: "Marta Matylda Kania",
+    name: "Dr Marta Matylda Kania",
     title: "CEO",
     company: "Circuit Tree",
     bio: "Dla biznesu, NGOsów i uczelni szyje na miarę warsztaty Superpowered by AI - z pisania promptów, narzędzi oraz zastosowań generatywnej sztucznej inteligencji. Projektuje procesy i narzędzia AI, kierując się zasadą: 'Make augmentation, not automation'. Po godzinach prowadzi AI Book Club.",
