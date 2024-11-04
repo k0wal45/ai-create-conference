@@ -23,34 +23,20 @@ const Footer = () => {
           <div className="flex flex-col">
             <p className="text-2xl">Organizator</p>
 
-            <p className="mt-4">W.M. Murator Projekt</p>
-            <p>ul. Dęblińska 6</p>
-            <p>04-187 Warszawa</p>
-            <p>KRS: 0000079969</p>
+            <p className="mt-4">Przykładowa Firma</p>
+            <p>ul. Ulica 6</p>
+            <p>04-100 Warszawa</p>
+            <p>KRS: 0000000000</p>
           </div>
 
           <div className="flex flex-col gap-2">
             <p className="text-2xl">Skontaktuj się z nami</p>
 
             <a href="mailto:kontakt@aicreate2024.pl" className="mt-4">
-              kontakt@aicreate2024.pl
+              email@email.pl
             </a>
-            <a
-              href="/documents/POLITYKA_PRYWATNOSCI_AICREATE.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Polityka prywatności
-            </a>
-            <a
-              href="/documents/REGULAMIN_KONFERENCJI_AICREATE.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Regulamin konferencji
-            </a>
+            <div className="underline">Polityka prywatności</div>
+            <div className="underline">Regulamin konferencji</div>
           </div>
         </div>
       </div>
