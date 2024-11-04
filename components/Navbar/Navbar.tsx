@@ -3,7 +3,6 @@ import Link from "next/link";
 import "./hamburger.css";
 import { useRef, useState } from "react";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
-import Image from "next/image";
 
 const Navbar = () => {
   const hamburger = useRef<HTMLInputElement>(null);
@@ -49,14 +48,7 @@ const Navbar = () => {
         href="#home"
         className="flex flex-col justify-center items-end p-4 z-30 font-bold relative"
       >
-        <Image
-          width={500}
-          height={100}
-          src="/assets/img/aiCreate.png"
-          alt="aI Create logo"
-          className="h-4 lg:h-6 w-auto object-contain"
-        />
-        <p className="font-semibold text-lg">2024</p>
+        <p className="font-semibold text-2xl">AI Create Logo</p>
       </Link>
       <label className="flex lg:hidden z-50">
         <input

@@ -23,24 +23,24 @@ const Where = () => {
     >
       <div className="max-w-lg w-full flex flex-col gap-8 items-start justify-between pt-8">
         <h6 className="text-4xl font-bold">
-          Hotel Bellotto <br />
-          ul. Senatorska 13/15
+          Hotel <br />
+          ul. Ulica 13
           <br /> Warszawa
         </h6>
         <DotExpandButton>Dowiedz się więcej</DotExpandButton>
         <Image
           width={700}
           height={700}
-          src="/assets/img/bellotto2.png"
-          alt="Hotel Bellotto"
+          src="https://images.unsplash.com/photo-1535827841776-24afc1e255ac?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
           className="w-full max-w-2xl h-[15rem] rounded-2xl object-cover"
         />
       </div>
       <Image
         width={1000}
         height={1000}
-        src="/assets/img/bellotto1.png"
-        alt="Hotel Bellotto"
+        src="https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
         className="w-full max-w-lg aspect-square rounded-2xl object-cover"
       />
       <motion.div

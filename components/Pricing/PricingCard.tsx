@@ -14,14 +14,9 @@ const PricingCard = ({ name, cost, desc }: Props) => {
         <span className="text-lg"> zł brutto</span>
       </p>
       <p className="text-center text-xl font-light">{desc}</p>
-      <a
-        href="https://tobilet.pl/ai-create-2024.html"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-6 py-2 text-lg bg-white text-secondary rounded-full hover:scale-110 hover:font-bold active:scale-100 duration-200 "
-      >
+      <div className="px-6 py-2 text-lg bg-white text-secondary rounded-full hover:scale-110 hover:font-bold active:scale-100 duration-200 ">
         Kup Bilet
-      </a>
+      </div>
       <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-r from-primary to-primary/0 translate-x-[-110%] group-hover:translate-x-[0%] transition-transform duration-700 z-[-1]" />
       <div className="absolute group-odd:bg-accent bg-secondary inset-0 z-[-2]"></div>
     </div>

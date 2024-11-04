@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="flex-1 w-full"></div>
         <div className="flex-1 w-full">
           <p className="text-xl lg:text-2xl xl:text-3xl font-semibold">
-            29.10.2024 Hotel Bellotto, Warszawa
+            29.10.2024 Hotel, Warszawa
           </p>
         </div>
       </div>
